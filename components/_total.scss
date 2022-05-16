@@ -210,9 +210,11 @@ body {
     align-content: center;
     text-align: center;
     padding: 0.5rem 1rem;
+
     /* Columnas */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 400px 400px;
+    
     /* Filas */
     grid-template-areas: "ele1 ele1" "ele2 ele3" "ele4 ele5";
     gap: 2rem
@@ -326,5 +328,3 @@ body {
         flex-direction: column;
     }
 }
-
-/* APLICANDO SASS */
