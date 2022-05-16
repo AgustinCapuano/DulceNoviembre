@@ -1,5 +1,10 @@
 body {
     font-family: 'Fredoka One', cursive;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 * {
@@ -170,13 +175,7 @@ body {
 
 /* Cuadraro de la pagina Contacto */
 
-.hero__left {
-    width: 50%;
-}
-
-.hero__right {
-    width: 50%;
-    position: relative;
+.quien {
     text-align: center;
 }
 
