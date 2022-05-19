@@ -1,10 +1,5 @@
 body {
     font-family: 'Fredoka One', cursive;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
 }
 
 * {
@@ -164,19 +159,24 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    margin: 0 auto;
     padding: 90px;
     background-color: #DFA7F3;
     border: 3px solid black;
     border-radius: 60px;
     margin: 200px;
+    justify-content: center;
+    text-align: center;
 }
 
+.medio {
+    display: flex;
+}
 
 /* Cuadraro de la pagina Contacto */
 
 .quien {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 
@@ -326,4 +326,25 @@ body {
     .hero {
         flex-direction: column;
     }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1750px) {
+    .huevos {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 740px) {
+.foto__disfruta {
+    width: 500px;
+}
+}
+
+.patito {
+    background-color: #DFA7F3;
+}
+
+.container {
+   text-align: center;
+   margin-top: 8rem;
 }
