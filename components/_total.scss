@@ -154,38 +154,8 @@ body {
 }
 
 
-/* Cuadraro de la pagina Contacto */
-
-.hero {
-    display: flex;
-    align-items: center;
-    padding: 90px;
-    background-color: #DFA7F3;
-    border: 3px solid black;
-    border-radius: 60px;
-    margin: 200px;
-    justify-content: center;
-    text-align: center;
-}
-
 .medio {
     display: flex;
-}
-
-/* Cuadraro de la pagina Contacto */
-
-.quien {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-
-/* Cuadraro de la pagina Contacto */
-
-.imagen__contacto {
-    width: 700px;
-    height: 700px;
-    border-radius: 20px;
 }
 
 
@@ -219,6 +189,55 @@ body {
     gap: 2rem
 }
 
+/* PAGINA SOBRE NOSOTROS*/
+
+.about {
+    height: 100vh;
+    width: 100%;
+    background: #e6d8b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.about .about-us img{
+    width: 610px;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+}
+.all-text {
+    width: 600px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+.about-us {
+    width: 1290px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.all-text h4 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #777777;
+}
+.all-text h1 {
+    font-size: 30px;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.all-text p {
+    font-size: 16px;
+    color: #111111;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
 
 /* IMAGENES DE LA PAGINA PRINCIPAL CON GRID */
 
@@ -351,7 +370,7 @@ body {
 
 .pie-pagina{
     width: 100%;
-    background-color: #a16e42;
+    background-color: #aa9e80;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -398,7 +417,7 @@ body {
     color: rgb(255, 255, 255);
 }
 .pie-pagina .grupo-2{
-    background-color: #5e4026;
+    background-color: #aa9e80;
     padding: 15px 10px;
     text-align: center;
     color: rgb(0, 0, 0);
