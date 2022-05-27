@@ -82,23 +82,65 @@
 
         <!-- FORMULARIO -->
 
-        <section class="container">
-
-            <h1 class="display-4 ">REGISTRATE</h1>
-
-            <input type="Nombre" placeholder="Nombre:" class="form-control mb-3">
-
-            <input type="Apellido" placeholder="Apellido:" class="form-control mb-3">
-
-            <input type="Email" placeholder="Email:" class="form-control mb-3">
-
-            <input type="password" placeholder="Contraseña:" class="form-control mb-3">
-
-            <input type="password" placeholder="Repite Contraseña:" class="form-control mb-3">
-
-            <button type="submit" class="btn btn-dark mb-3">Enviar</button>
-            
-        </section>
+        <div class="container">
+            <center><div class="title">Registrate</div></center>
+            <div class="content">
+              <form action="#">
+                <div class="user-details">
+                  <div class="input-box">
+                    <span class="details">Nombre</span>
+                    <input type="text" placeholder="ingresa tu nombre" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Apellido</span>
+                    <input type="text" placeholder="ingresa tu apellido" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="ingresa tu email" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Telefono</span>
+                    <input type="text" placeholder="ingresa tu numero" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Contraseña</span>
+                    <input type="password" placeholder="ingresa tu contraseña" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Confirma la contraseña</span>
+                    <input type="password" placeholder="confirma la contraseña" required>
+                  </div>
+                </div>
+                <div class="gender-details">
+                  <input type="radio" name="gender" id="dot-1">
+                  <input type="radio" name="gender" id="dot-2">
+                  <input type="radio" name="gender" id="dot-3">
+                  <span class="gender-title">Genero</span>
+                  <div class="category">
+                    <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="gender">Masculino</span>
+                  </label>
+                  <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="gender">Femenino</span>
+                  </label>
+                  <label for="dot-3">
+                    <span class="dot three"></span>
+                    <span class="gender">Otro</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="button">
+                  <input type="submit" value="Registrate">
+                </div>
+                <div class="sign_up">
+                Ya tienes cunta? <a href="">Ingresa</a>
+              </div>
+              </form>
+            </div>
+          </div>
 
     </main>
 
